@@ -12,6 +12,16 @@ ContainerAware adds a container aware interface, trait and base controller. The 
 
 The `JeremyWorboys\ContainerAware\ContainerAwareController` also comes with some helper methods for retrieving services from the container and adds method injection into your Laravel 4 controller actions (exactly the same as Laravel 5).
 
+## Installation
+
+Require this package with composer using the following command:
+
+    composer require barryvdh/laravel-ide-helper
+
+After updating composer, add the ServiceProvider to the providers array in app/config/app.php
+
+    'JeremyWorboys\ContainerAware\ContainerAwareServiceProvider',
+
 ### License
 
 ContainerAware is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
