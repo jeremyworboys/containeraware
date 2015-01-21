@@ -1,6 +1,9 @@
 {
     "name": "jeremyworboys/containeraware",
-    "description": "Adds ContainerAware functionality to Laravel 4",
+    "description": "Adds ContainerAware and method injection functionality to Laravel 4",
+    "keywords": ["laravel", "controller", "container", "dependency", "injection"],
+    "homepage": "http://github.com/jeremyworboys/containeraware",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jeremy Worboys",
