@@ -68,7 +68,7 @@ class MethodArgumentResolver
      */
     protected function parameterIsDefined(ReflectionParameter $param, array $parameters)
     {
-        return array_key_exists($param->name, $parameters);
+        return isset($parameters[$param->name]);
     }
 
     /**
