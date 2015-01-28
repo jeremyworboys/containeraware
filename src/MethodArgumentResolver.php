@@ -57,6 +57,8 @@ class MethodArgumentResolver
         if ($param->isDefaultValueAvailable()) {
             return $param->getDefaultValue();
         }
+
+        return array_shift($parameters);
     }
 
     /**
